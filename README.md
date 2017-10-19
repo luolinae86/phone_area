@@ -1,5 +1,6 @@
 # PhoneArea
-According to Chinese phone number, checkout it's province,city,and operator
+
+Find the address (province,city) and operator based on the chinese phone number
 
 根据中国电话号码，查询该号码所属的省，市以及运营商
 
