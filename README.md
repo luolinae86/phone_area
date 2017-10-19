@@ -26,8 +26,12 @@ Or install it yourself as:
 PhoneArea.check(phone)
 
 # When phone is valid 
-PhoneArea.check("18602870000")
-# => {:province=>"四川", :city=>"成都", :sp=>"联通"}
+result = PhoneArea.check("18602870000")
+# result => {:province=>"四川", :city=>"成都", :sp=>"联通"}
+
+province = result[:province]
+city     = result[:city]
+sp       = result[:sp]
 
 # When phone is invalid return empty values
 PhoneArea.check("186")
