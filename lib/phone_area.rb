@@ -1,4 +1,6 @@
 require "phone_area/version"
+require 'rest-client'
+require 'json'
 
 module PhoneArea
   URL = "https://cx.shouji.360.cn/phonearea.php?number="
