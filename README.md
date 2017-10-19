@@ -1,5 +1,6 @@
 # PhoneArea
 According to Chinese phone number, checkout it's province,city,and operator
+
 根据中国电话号码，查询该号码所属的省，市以及运营商
 
 ## Installation
@@ -30,6 +31,8 @@ PhoneArea.check("18602870000")
 # When phone is invalid return empty values
 PhoneArea.check("186")
 # => {:province=>"", :city=>"", :sp=>""}
+
+```
 
 ## Development
 
